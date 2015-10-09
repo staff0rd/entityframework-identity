@@ -6,7 +6,7 @@ using Microsoft.AspNet.Identity;
 using System.Data.Entity;
 using Microsoft.Framework.DependencyInjection.Extensions;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Microsoft.Framework.DependencyInjection
 {
     public static class IdentityEntityFrameworkBuilderExtensions
     {
