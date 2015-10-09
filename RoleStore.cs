@@ -246,8 +246,8 @@ namespace Identity.EntityFramework6
             {
                 throw new ArgumentNullException(nameof(role));
             }
-
-            return await RoleClaims.Where(rc => rc.RoleId.Equals(role.Id)).Select(c => new Claim(c.ClaimType, c.ClaimValue)).ToListAsync(cancellationToken);
+            var roleClaims = await RoleClaims.Where(rc => rc.RoleId.Equals(role.Id)).ToListAsync(cancellationToken);
+            return roleClaims.Select(c => new Claim(c.ClaimType, c.ClaimValue)).ToList();
         }
 
         public Task AddClaimAsync(TRole role, Claim claim, CancellationToken cancellationToken = default(CancellationToken))

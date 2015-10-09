@@ -411,7 +411,8 @@ namespace Identity.EntityFramework6
                 throw new ArgumentNullException(nameof(user));
             }
 
-            return await UserClaims.Where(uc => uc.UserId.Equals(user.Id)).Select(c => new Claim(c.ClaimType, c.ClaimValue)).ToListAsync(cancellationToken);
+            var userClaims = await UserClaims.Where(uc => uc.UserId.Equals(user.Id)).ToListAsync(cancellationToken);
+            return userClaims.Select(c => new Claim(c.ClaimType, c.ClaimValue)).ToList();
         }
 
         public virtual Task AddClaimsAsync(TUser user, IEnumerable<Claim> claims, CancellationToken cancellationToken = default(CancellationToken))
