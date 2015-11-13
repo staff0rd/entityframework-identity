@@ -1,11 +1,10 @@
 ﻿{
   "version": "1.0.0-*",
-  "description": "Identity.EntityFramework6 Class Library",
+  "description": "Atquin.EntityFramework.Identity Class Library",
   "authors": [ "stafford" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-
 	"frameworks": {
 		"dnx451": {
 			"frameworkAssemblies": {

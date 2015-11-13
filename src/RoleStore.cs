@@ -12,7 +12,7 @@ using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Identity.EntityFramework6
+namespace Atquin.EntityFramework.Identity
 {
     public class RoleStore<TRole> : RoleStore<TRole, DbContext, string>
         where TRole : IdentityRole

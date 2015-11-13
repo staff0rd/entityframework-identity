@@ -14,7 +14,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 
-namespace Identity.EntityFramework6
+namespace Atquin.EntityFramework.Identity
 {
     public class UserStore : UserStore<IdentityUser>
     {

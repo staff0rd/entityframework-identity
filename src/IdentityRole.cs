@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Identity.EntityFramework6
+namespace Atquin.EntityFramework.Identity
 {
     /// <summary>
     ///     Represents a Role entity

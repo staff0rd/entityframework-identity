@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Identity.EntityFramework6
+namespace Atquin.EntityFramework.Identity
 {
     /// <summary>
     ///     Entity type for a user's login (i.e. facebook, google)

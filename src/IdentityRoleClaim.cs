@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Identity.EntityFramework6
+namespace Atquin.EntityFramework.Identity
 {
     /// <summary>
     ///     EntityType that represents one specific role claim

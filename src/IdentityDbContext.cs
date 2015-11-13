@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure.Annotations;
 
-namespace Identity.EntityFramework6
+namespace Atquin.EntityFramework.Identity
 {
     public class IdentityDbContext : IdentityDbContext<IdentityUser, IdentityRole> { }
 
