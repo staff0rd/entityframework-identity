@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.0-*",
-  "description": "Atquin.EntityFramework.Identity Class Library",
-  "authors": [ "stafford" ],
+  "version": "1.0.0-beta7",
+  "description": "ASP.NET Identity 3 mappings for EntityFramework 6",
+  "authors": [ "Stafford Williams" ],
   "tags": [ "" ],
-  "projectUrl": "",
+  "projectUrl": "https://github.com/staff0rd/entityframework-identity",
   "licenseUrl": "",
 	"frameworks": {
 		"dnx451": {

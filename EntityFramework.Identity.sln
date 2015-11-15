@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24627.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EntityFramework.Identity", "src\EntityFramework.Identity.xproj", "{8E1353E1-B8EA-4B23-9C23-3106534CD51D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E1B866C-0297-44A9-BB4F-CCB84F083046}"
-	ProjectSection(SolutionItems) = preProject
-		src\global.json = src\global.json
-	EndProjectSection
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EntityFramework.Identity", "src\Atquin.EntityFramework.Identity\EntityFramework.Identity.xproj", "{8E1353E1-B8EA-4B23-9C23-3106534CD51D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
