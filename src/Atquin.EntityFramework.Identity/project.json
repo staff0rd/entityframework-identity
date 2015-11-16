@@ -13,7 +13,7 @@
 		}
 	},
 	"dependencies": {
-		"EntityFramework": "6.1.3-beta8",
+		"EntityFramework": "6.1.4-beta8",
 		"Microsoft.AspNet.Identity": "3.0.0-beta8",
 		"Microsoft.Framework.DependencyInjection": "1.0.0-beta8"
 	}
