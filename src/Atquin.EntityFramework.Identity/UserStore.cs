@@ -529,8 +529,9 @@ namespace Atquin.EntityFramework.Identity
                 throw new ArgumentNullException(nameof(user));
             }
             var userId = user.Id;
-            return await UserLogins.Where(l => l.UserId.Equals(userId))
-                .Select(l => new UserLoginInfo(l.LoginProvider, l.ProviderKey, l.ProviderDisplayName)).ToListAsync(cancellationToken);
+                
+            var logins = await UserLogins.Where(l => l.UserId.Equals(userId)).ToListAsync(cancellationToken);
+            return logins.Select(l => new UserLoginInfo(l.LoginProvider, l.ProviderKey, l.ProviderDisplayName)).ToList();
         }
 
         public async virtual Task<TUser> FindByLoginAsync(string loginProvider, string providerKey,
