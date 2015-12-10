@@ -4,7 +4,7 @@
 using System;
 using Microsoft.AspNet.Identity;
 using System.Data.Entity;
-using Microsoft.Framework.DependencyInjection.Extensions;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Microsoft.Framework.DependencyInjection
 {
