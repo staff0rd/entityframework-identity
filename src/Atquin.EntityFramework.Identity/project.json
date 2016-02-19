@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-rc1-final",
+  "version": "1.0.0-rc1-final-1",
   "description": "ASP.NET Identity 3 mappings for EntityFramework 6",
   "authors": [ "Stafford Williams" ],
   "tags": [ "" ],

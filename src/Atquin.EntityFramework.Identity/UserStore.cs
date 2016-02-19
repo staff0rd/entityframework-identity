@@ -161,6 +161,7 @@ namespace Atquin.EntityFramework.Identity
             }
 
             Context.Set<TUser>().Attach(user);
+            Context.Entry(user).State = EntityState.Modified;
             user.ConcurrencyStamp = Guid.NewGuid().ToString();
             try
             {
